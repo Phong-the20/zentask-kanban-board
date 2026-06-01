@@ -1,0 +1,28 @@
+**/target/
+**/build/
+.gradle/
+.kotlin/
+bin/
+out/
+**/node_modules/
+/frontend/dist/
+/frontend/build/
+
+### IDEs ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.code-workspace
+
+### System Files ###
+.DS_Store
+Thumbs.db
+
+### 🚨 SECURITY & LOCAL DATA 🚨 ###
+**/src/main/resources/application.properties
+**/uploads/
+.env
+.env.local
+*.log
